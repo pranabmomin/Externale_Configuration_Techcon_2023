@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FccConfigServerApplication<fcc-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fcc.config.server.fccconfigserver.FccConfigServerApplication",
+            "projectName": "fcc-config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SampleApplication<Sample>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.fcc.sample.Sample.SampleApplication",
+            "projectName": "Sample",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
